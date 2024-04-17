@@ -24,7 +24,7 @@ export default function GalleryPage() {
         </div>
         <div className="grid-container" id="gallery_container">
             {
-                Array(40).fill(0).map((_, index) => {
+                Array(23).fill(0).map((_, index) => {
                     return (
                         <div className="grid-item">
                             <img src={new URL(`../assets/gallery/${index + 1}.jpg`, import.meta.url).href} alt="" />

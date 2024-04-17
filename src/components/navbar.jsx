@@ -51,7 +51,7 @@ export default function NavBar() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <HashLink className="nav-link body-font-500" to="/#events-section">
+              <HashLink className="nav-link body-font-500" to="/event">
                 Events
               </HashLink>
             </li>
